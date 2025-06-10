@@ -11,8 +11,8 @@ const vscode = require('vscode');
 function activate(context) {
 	// Use the console to output diagnostic information (console.log) and errors (console.error)
 	// This line of code will only be executed once when your extension is activated
-	console.log('111 Congratulations, your extension "helloworld-minimal-sample" is now active!');
-	console.log('Operating System:', process.platform);
+	// Run "Developer: Toggle Developer Tools" command to view console.log messages
+	console.log('111 Congratulations, your extension "helloworld-minimal-sample" is now active!' + " OS: " + process.platform);
 
 	// The command has been defined in the package.json file
 	// Now provide the implementation of the command with  registerCommand
@@ -21,8 +21,8 @@ function activate(context) {
 		// The code you place here will be executed every time your command is executed
 
 		// Display a message box to the user
-		vscode.window.showInformationMessage('Hello World! 222');
-		console.log('Hello World! 333');
+		vscode.window.showInformationMessage('Hello World! 222'+ " OS: " + process.platform);
+		console.log('Hello World! 333' + " OS: " + process.platform);
 	});
 
 	context.subscriptions.push(disposable);
