@@ -6,7 +6,7 @@ THE_DIR=/tmp/foo
 
 rm -fR ${THE_DIR}
 
-code --user-data-dir ${THE_DIR}/u --extensions-dir ${THE_DIR}/e --install-extension helloworld-minimal-sample-0.0.1.vsix
+code --user-data-dir ${THE_DIR}/u --extensions-dir ${THE_DIR}/e --install-extension my-minimal-vscode-extension-0.0.1.vsix
 
 code --user-data-dir ${THE_DIR}/u --extensions-dir ${THE_DIR}/e --install-extension ms-vscode-remote.vscode-remote-extensionpack
 

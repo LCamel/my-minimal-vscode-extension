@@ -1,11 +1,11 @@
 {
-	"name": "helloworld-minimal-sample",
-	"description": "Minimal HelloWorld example for VS Code",
+	"name": "my-minimal-vscode-extension",
+	"description": "my minimal vscode extension",
 	"version": "0.0.1",
-	"publisher": "lcamel",
+	"publisher": "LCamel",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/lcamel/vscode-extension-minimal.git"
+		"url": "https://github.com/LCamel/my-minimal-vscode-extension.git"
 	},
 	"engines": {
 		"vscode": "^1.74.0"
@@ -15,8 +15,8 @@
 	"contributes": {
 		"commands": [
 			{
-				"command": "extension.helloWorld",
-				"title": "Hello World"
+				"command": "myMinimalVscodeExtension.helloWorld",
+				"title": "my minimal vscode extension hello world"
 			}
 		]
 	},
